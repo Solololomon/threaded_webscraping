@@ -67,4 +67,3 @@ df = pd.DataFrame(jobs, columns=['job_id', 'title', 'company', 'location', 'desc
 #print(df.to_string(index=False))
 
 print("With threading, this took %s seconds" % (time.time() - start_time))
-print(nothreadtime)
