@@ -44,5 +44,5 @@ for url in jobs['url']:
 df = pd.DataFrame(jobs, columns=['job_id', 'title', 'company', 'location', 'description', 'url'])
 #print(df.to_string(index=False))
 
-nothread = "Without threading, this took %s seconds" % (time.time() - start_time)
-print(nothread)
+nothreadtime = "Without threading, this took %s seconds" % (time.time() - start_time)
+print(nothreadtime)
