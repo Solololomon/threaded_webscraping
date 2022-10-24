@@ -66,5 +66,5 @@ trd5.join()
 df = pd.DataFrame(jobs, columns=['job_id', 'title', 'company', 'location', 'description', 'url'])
 #print(df.to_string(index=False))
 
-print("--- %s seconds ---" % (time.time() - start_time))
+print("With threading, this took %s seconds" % (time.time() - start_time))
 print(nothreadtime)
